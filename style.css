@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=DotGothic16&display=swap');
+
+*{
+ margin:0px;
+ padding: 0px;
+ font-family: 'Cairo', sans-serif;
+
+}
+
+
+#formica{
+    width: 50%;
+    height: 800px;
+    margin: 50px auto;
+    background-color: rgb(245, 115, 250);
+    align-items: center;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#formica h1 {
+    color: rgb(33, 55, 59);
+}
+
+input[type=text] ,  input[type=email] , input[type=password] {
+    width: 50%;
+    height: 35px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: rgb(234, 236, 114);
+  }
+
+  input[type=checkbox] , input[type=radio]{
+      width: 30px;
+      margin: 10px;
+     
+  }
+
+  input[type=submit] {
+      width: 80px;
+      height: 30px;
+      border-radius: 10px;
+      background-color: rgb(99, 214, 99);
+  }
